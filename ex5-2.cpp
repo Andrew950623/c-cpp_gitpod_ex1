@@ -8,9 +8,11 @@ int main()
 
     printf(" please unput a number \n");
     scanf("%d" ,&a);
-    if( a > 9 ){
+    if( a > 80 ){
         printf(" a > 9 , hello \n");
-    }else if {
+    }else if( a <= 80 && a> 70){
+
+    }else{
     printf(" hello world \n");
     }
     return 0;
